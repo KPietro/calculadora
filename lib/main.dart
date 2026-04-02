@@ -14,7 +14,9 @@ class CalculadoraApp extends StatelessWidget {
       title: 'Calculadora Bizarra',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF311B92)),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 146, 27, 146),
+        ),
         useMaterial3: true,
       ),
       home: const CalculadoraHome(),
